@@ -1,9 +1,9 @@
 {
   "name": "SwiftyRadio",
-  "version": "0.1.0",
-  "summary": "A short description of SwiftyRadio.",
+  "version": "0.0.1",
+  "summary": "Awesome radio buttons in swift.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Ibrahim F/SwiftyRadio",
+  "homepage": "https://github.com/brhoomjs/SwifyRadio",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Ibrahim F": "ibrahim@fullstack.ae"
   },
   "source": {
-    "git": "https://github.com/Ibrahim F/SwiftyRadio.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/brhoomjs/SwifyRadio.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
-  "source_files": "SwiftyRadio/Classes/**/*"
+  "source_files": "SwiftyRadio/Classes/**/*",
+  "frameworks": "UIKit"
 }

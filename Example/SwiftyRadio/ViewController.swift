@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyRadio
 
 class ViewController: UIViewController {
 

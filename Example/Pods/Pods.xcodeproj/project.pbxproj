@@ -7,26 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		069EA1A4EE038A88BA076B834AA0FC15 /* Pods-SwiftyRadio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 886FC45E4FB1758A527A6F5846CA9602 /* Pods-SwiftyRadio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1539CE22213E755E869B207763E6BDDD /* Pods-SwiftyRadio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0443C7C60232CD5F4F4CB62A32264 /* Pods-SwiftyRadio_Tests-dummy.m */; };
-		15A7FC6D25E1F29FDB4E6A16626C909D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		289F170B01D4754FDF492C8A32FDEEBF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688D49F216BA03BF88527632B0FC319 /* ReplaceMe.swift */; };
-		5B01FC95B712DCD7C982D30D3F5CCA2E /* Pods-SwiftyRadio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AE4EC0CD81A346960D7F8ACDA2DA13 /* Pods-SwiftyRadio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63C5648E362F63A0E466C62886472020 /* SwiftyRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6066D4A407902665BC151A22146D4DC3 /* SwiftyRadio-dummy.m */; };
-		7C9698845FC29CF28131DE4948742484 /* SwiftyRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7A0A0488C1D3AF802D5C7212B2A172 /* SwiftyRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD993DFFEB516FC9A52492DB4930658A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B2A4AEFF16F074CEBBC1953F04701D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E8FFD87864831F9FF651B6D2564DCAC0 /* Pods-SwiftyRadio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6ED1C9296CD11C1F2856E711DFBD17 /* Pods-SwiftyRadio_Example-dummy.m */; };
+		069EA1A4EE038A88BA076B834AA0FC15 /* Pods-SwiftyRadio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4586E01FD36036916A3FEB3ACBFD5CE7 /* Pods-SwiftyRadio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D89EBE27E35DADFC7FD736DC663C04 /* SwiftyRadio+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF70A6A8463F29F08E489CF0FAEE24 /* SwiftyRadio+Delegate.swift */; };
+		2532D57E45425B2C45DEA025557B5DFC /* SwiftyRadio+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDEE951B0968AF056B108FAAA91CF2F /* SwiftyRadio+Config.swift */; };
+		547F1F9B9ACBF40D8DE1313A9A090303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		63F9AB9BDB6B8AEE8E31C92D85724A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		AD993DFFEB516FC9A52492DB4930658A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		ADC78F50D4B819E5C128F1E1FA061F97 /* SwiftyRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD9BBA9C941F77C39BA2B41F5648C2E /* SwiftyRadio.swift */; };
+		B6DA238B0397A023015498CEDAC55B91 /* SwiftyRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FF0F419E3638FDB89B003119E79904 /* SwiftyRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C7ACDBF057E4B8F8691542ACB38839 /* SwiftyRadio+ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42EFF382F26768F49A41A0215D96BF /* SwiftyRadio+ButtonView.swift */; };
+		DD52EBCFE5FAB71D56846736CCA97DA0 /* SwiftyRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945EF633C6BED9FAD4978E2A465B46BB /* SwiftyRadio-dummy.m */; };
+		E8FFD87864831F9FF651B6D2564DCAC0 /* Pods-SwiftyRadio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73200A4402A0ECBA5752C5A31FB5E336 /* Pods-SwiftyRadio_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E09DD18B62164FA2363639FC6AEEC424 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D510F67522D46E62635E723ED7C61047;
-			remoteInfo = "Pods-SwiftyRadio_Example";
-		};
 		E452C2E84BC854B1BD6AA8265CD3058B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -37,39 +31,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C6ED1C9296CD11C1F2856E711DFBD17 /* Pods-SwiftyRadio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyRadio_Example-dummy.m"; sourceTree = "<group>"; };
-		1AA5D4A7C42C492B44BF54A704737B80 /* SwiftyRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24CF16D0193F5BB15337F01A6ED0BB9F /* Pods-SwiftyRadio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyRadio_Tests.modulemap"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E7A0A0488C1D3AF802D5C7212B2A172 /* SwiftyRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRadio-umbrella.h"; sourceTree = "<group>"; };
+		034BD2C024E5E01BC012EF86381F53E1 /* Pods-SwiftyRadio_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Example-Info.plist"; sourceTree = "<group>"; };
+		056FA08DB53B2B74A31FCFEE7C9AB457 /* SwiftyRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRadio.debug.xcconfig; sourceTree = "<group>"; };
+		2AB2FD502157D71C000946085222F74C /* Pods-SwiftyRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		376722F6190F78556CAB29400C43C06F /* Pods-SwiftyRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43B09FFDDD950ACDD860A7A0872DC50E /* Pods_SwiftyRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyRadio_Example.framework; path = "Pods-SwiftyRadio_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4688D49F216BA03BF88527632B0FC319 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyRadio/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		59E4A29A7562DBB26D8ADDDEC6D3D6A6 /* SwiftyRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRadio-prefix.pch"; sourceTree = "<group>"; };
-		6066D4A407902665BC151A22146D4DC3 /* SwiftyRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRadio-dummy.m"; sourceTree = "<group>"; };
-		6498A98589EE22B15AF996D42AA9E9BC /* Pods-SwiftyRadio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyRadio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71F1F018E1A311F389771F71C9507344 /* SwiftyRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyRadio-Info.plist"; sourceTree = "<group>"; };
-		73F8FF088DFF946373CCBEE29006BAC0 /* Pods-SwiftyRadio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyRadio_Example.modulemap"; sourceTree = "<group>"; };
-		79AE4EC0CD81A346960D7F8ACDA2DA13 /* Pods-SwiftyRadio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyRadio_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7E3F9050904106726BFD505EDE944F3F /* Pods-SwiftyRadio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		886FC45E4FB1758A527A6F5846CA9602 /* Pods-SwiftyRadio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyRadio_Example-umbrella.h"; sourceTree = "<group>"; };
-		8945E7219D6D5711FD9E40B54E7BAB48 /* Pods-SwiftyRadio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyRadio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A0D9A31CD9D086358C012EA9AEBDA7A /* Pods-SwiftyRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		99C0443C7C60232CD5F4F4CB62A32264 /* Pods-SwiftyRadio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyRadio_Tests-dummy.m"; sourceTree = "<group>"; };
-		9BAA1EEF1A98778028FB7924FD5231C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		440D117C0A56AE7645E9D8229DDA7228 /* SwiftyRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRadio.modulemap; sourceTree = "<group>"; };
+		4586E01FD36036916A3FEB3ACBFD5CE7 /* Pods-SwiftyRadio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyRadio_Example-umbrella.h"; sourceTree = "<group>"; };
+		51FF0F419E3638FDB89B003119E79904 /* SwiftyRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRadio-umbrella.h"; sourceTree = "<group>"; };
+		5DADE3B1CFB0FF82476EA1C0F5EA7A61 /* Pods-SwiftyRadio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyRadio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F9F6FBE80CF0A352FB967C05C34450 /* Pods-SwiftyRadio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EDEE951B0968AF056B108FAAA91CF2F /* SwiftyRadio+Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyRadio+Config.swift"; path = "SwiftyRadio/Classes/SwiftyRadio+Config.swift"; sourceTree = "<group>"; };
+		73200A4402A0ECBA5752C5A31FB5E336 /* Pods-SwiftyRadio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyRadio_Example-dummy.m"; sourceTree = "<group>"; };
+		77EF70A6A8463F29F08E489CF0FAEE24 /* SwiftyRadio+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyRadio+Delegate.swift"; path = "SwiftyRadio/Classes/SwiftyRadio+Delegate.swift"; sourceTree = "<group>"; };
+		7A151CE6FE1FA5822761F51CCD479569 /* Pods-SwiftyRadio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyRadio_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7F820AC85C2272221E66AA86081D6BEE /* SwiftyRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRadio.release.xcconfig; sourceTree = "<group>"; };
+		93307EDAE2D8011D50D9F46CAA253778 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		937EDE74DE285030454DBD8B7ED88633 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		945EF633C6BED9FAD4978E2A465B46BB /* SwiftyRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRadio-dummy.m"; sourceTree = "<group>"; };
+		979C9E583F3A12514EFA708183E65A04 /* SwiftyRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A18D66E6374882A60B630D534A55EBB1 /* SwiftyRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRadio.release.xcconfig; sourceTree = "<group>"; };
-		B4D77000B973808FC5D375740C1B8A78 /* SwiftyRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRadio.debug.xcconfig; sourceTree = "<group>"; };
-		B9A8B350074B084B2F77A6C35F624EFC /* Pods-SwiftyRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BAF979EFCD980D0929DF8FB53465EF07 /* SwiftyRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRadio.framework; path = SwiftyRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFEB838BEBE9F029146169C8A2E446F /* Pods-SwiftyRadio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC1D5B01F8FF1A554A06E9C53DA0C78D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CE9384D129695960BB15DC28F85B5529 /* Pods-SwiftyRadio_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Tests-Info.plist"; sourceTree = "<group>"; };
-		DB33BD997268FEFB9EE363B1110ECF86 /* Pods-SwiftyRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E0AE8BABCB16BAD69D4C127EF857AF36 /* SwiftyRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRadio.modulemap; sourceTree = "<group>"; };
-		E1E11E3431BB5A29DDB38FA02815AAD1 /* Pods-SwiftyRadio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyRadio_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E58B72F3E83C1BC8A11955C6A3C5374F /* Pods-SwiftyRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EAA876F16B88D594BD9B7266FF5111C2 /* Pods_SwiftyRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyRadio_Tests.framework; path = "Pods-SwiftyRadio_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36504BC04710C47852C7636827F409A /* Pods-SwiftyRadio_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyRadio_Example-Info.plist"; sourceTree = "<group>"; };
+		BE42EFF382F26768F49A41A0215D96BF /* SwiftyRadio+ButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyRadio+ButtonView.swift"; path = "SwiftyRadio/Classes/SwiftyRadio+ButtonView.swift"; sourceTree = "<group>"; };
+		C73774EF1307932C13FE269BDC63D2A3 /* Pods-SwiftyRadio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyRadio_Example.modulemap"; sourceTree = "<group>"; };
+		CDBAB6CCF94D09699F1DE5DFB3BED333 /* SwiftyRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRadio-prefix.pch"; sourceTree = "<group>"; };
+		E2B8F0B5A8DE62817A1C82C51700717B /* SwiftyRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyRadio-Info.plist"; sourceTree = "<group>"; };
+		FDD9BBA9C941F77C39BA2B41F5648C2E /* SwiftyRadio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyRadio.swift; path = SwiftyRadio/Classes/SwiftyRadio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,164 +70,135 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		413CDF748F7886C3E053545CFA8F4BF7 /* Frameworks */ = {
+		C4BDA2E85C4E5D3FF544E295C93F2A4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A4AEFF16F074CEBBC1953F04701D3D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8EA12118DFE88D8D158253CEF6F9CC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15A7FC6D25E1F29FDB4E6A16626C909D /* Foundation.framework in Frameworks */,
+				547F1F9B9ACBF40D8DE1313A9A090303 /* Foundation.framework in Frameworks */,
+				63F9AB9BDB6B8AEE8E31C92D85724A92 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08A6F882102E25C91EAF712A44FF417E /* Pods-SwiftyRadio_Tests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24CF16D0193F5BB15337F01A6ED0BB9F /* Pods-SwiftyRadio_Tests.modulemap */,
-				8945E7219D6D5711FD9E40B54E7BAB48 /* Pods-SwiftyRadio_Tests-acknowledgements.markdown */,
-				CBFEB838BEBE9F029146169C8A2E446F /* Pods-SwiftyRadio_Tests-acknowledgements.plist */,
-				99C0443C7C60232CD5F4F4CB62A32264 /* Pods-SwiftyRadio_Tests-dummy.m */,
-				CE9384D129695960BB15DC28F85B5529 /* Pods-SwiftyRadio_Tests-Info.plist */,
-				79AE4EC0CD81A346960D7F8ACDA2DA13 /* Pods-SwiftyRadio_Tests-umbrella.h */,
-				E58B72F3E83C1BC8A11955C6A3C5374F /* Pods-SwiftyRadio_Tests.debug.xcconfig */,
-				8A0D9A31CD9D086358C012EA9AEBDA7A /* Pods-SwiftyRadio_Tests.release.xcconfig */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = "Pods-SwiftyRadio_Tests";
-			path = "Target Support Files/Pods-SwiftyRadio_Tests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0FE4C4AC39AABA38F7785FF93F10E2E5 /* SwiftyRadio */ = {
+		40B58886BA3A4F7E2F947C4E16B360B5 /* Pods-SwiftyRadio_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4688D49F216BA03BF88527632B0FC319 /* ReplaceMe.swift */,
-				D9795266B4227C1BF0A901BF9CBAC2CA /* Pod */,
-				D14484A969C296A5BE08CD31CE058269 /* Support Files */,
-			);
-			name = SwiftyRadio;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C61FC41688DFF5DB4B6B9C5B33C7B674 /* Pods-SwiftyRadio_Example */ = {
-			isa = PBXGroup;
-			children = (
-				73F8FF088DFF946373CCBEE29006BAC0 /* Pods-SwiftyRadio_Example.modulemap */,
-				6498A98589EE22B15AF996D42AA9E9BC /* Pods-SwiftyRadio_Example-acknowledgements.markdown */,
-				7E3F9050904106726BFD505EDE944F3F /* Pods-SwiftyRadio_Example-acknowledgements.plist */,
-				0C6ED1C9296CD11C1F2856E711DFBD17 /* Pods-SwiftyRadio_Example-dummy.m */,
-				E1E11E3431BB5A29DDB38FA02815AAD1 /* Pods-SwiftyRadio_Example-frameworks.sh */,
-				F36504BC04710C47852C7636827F409A /* Pods-SwiftyRadio_Example-Info.plist */,
-				886FC45E4FB1758A527A6F5846CA9602 /* Pods-SwiftyRadio_Example-umbrella.h */,
-				DB33BD997268FEFB9EE363B1110ECF86 /* Pods-SwiftyRadio_Example.debug.xcconfig */,
-				B9A8B350074B084B2F77A6C35F624EFC /* Pods-SwiftyRadio_Example.release.xcconfig */,
+				C73774EF1307932C13FE269BDC63D2A3 /* Pods-SwiftyRadio_Example.modulemap */,
+				5DADE3B1CFB0FF82476EA1C0F5EA7A61 /* Pods-SwiftyRadio_Example-acknowledgements.markdown */,
+				68F9F6FBE80CF0A352FB967C05C34450 /* Pods-SwiftyRadio_Example-acknowledgements.plist */,
+				73200A4402A0ECBA5752C5A31FB5E336 /* Pods-SwiftyRadio_Example-dummy.m */,
+				7A151CE6FE1FA5822761F51CCD479569 /* Pods-SwiftyRadio_Example-frameworks.sh */,
+				034BD2C024E5E01BC012EF86381F53E1 /* Pods-SwiftyRadio_Example-Info.plist */,
+				4586E01FD36036916A3FEB3ACBFD5CE7 /* Pods-SwiftyRadio_Example-umbrella.h */,
+				2AB2FD502157D71C000946085222F74C /* Pods-SwiftyRadio_Example.debug.xcconfig */,
+				376722F6190F78556CAB29400C43C06F /* Pods-SwiftyRadio_Example.release.xcconfig */,
 			);
 			name = "Pods-SwiftyRadio_Example";
 			path = "Target Support Files/Pods-SwiftyRadio_Example";
 			sourceTree = "<group>";
 		};
-		CD20A52F81C9CE9851D2BE9738BDA688 /* Products */ = {
+		92C44E80B085008787F803995A1A883D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				43B09FFDDD950ACDD860A7A0872DC50E /* Pods_SwiftyRadio_Example.framework */,
-				EAA876F16B88D594BD9B7266FF5111C2 /* Pods_SwiftyRadio_Tests.framework */,
-				BAF979EFCD980D0929DF8FB53465EF07 /* SwiftyRadio.framework */,
+				937EDE74DE285030454DBD8B7ED88633 /* LICENSE */,
+				93307EDAE2D8011D50D9F46CAA253778 /* README.md */,
+				979C9E583F3A12514EFA708183E65A04 /* SwiftyRadio.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1A7ECE87DFF71266052EFC8EC64A0E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				440D117C0A56AE7645E9D8229DDA7228 /* SwiftyRadio.modulemap */,
+				945EF633C6BED9FAD4978E2A465B46BB /* SwiftyRadio-dummy.m */,
+				E2B8F0B5A8DE62817A1C82C51700717B /* SwiftyRadio-Info.plist */,
+				CDBAB6CCF94D09699F1DE5DFB3BED333 /* SwiftyRadio-prefix.pch */,
+				51FF0F419E3638FDB89B003119E79904 /* SwiftyRadio-umbrella.h */,
+				056FA08DB53B2B74A31FCFEE7C9AB457 /* SwiftyRadio.debug.xcconfig */,
+				7F820AC85C2272221E66AA86081D6BEE /* SwiftyRadio.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftyRadio";
+			sourceTree = "<group>";
+		};
+		A685F646C1FE8B307BACE4AB3A2C6194 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40B58886BA3A4F7E2F947C4E16B360B5 /* Pods-SwiftyRadio_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A93BA90A895A3E6EBD3440436FC59EF2 /* SwiftyRadio */ = {
+			isa = PBXGroup;
+			children = (
+				FDD9BBA9C941F77C39BA2B41F5648C2E /* SwiftyRadio.swift */,
+				BE42EFF382F26768F49A41A0215D96BF /* SwiftyRadio+ButtonView.swift */,
+				6EDEE951B0968AF056B108FAAA91CF2F /* SwiftyRadio+Config.swift */,
+				77EF70A6A8463F29F08E489CF0FAEE24 /* SwiftyRadio+Delegate.swift */,
+				92C44E80B085008787F803995A1A883D /* Pod */,
+				A1A7ECE87DFF71266052EFC8EC64A0E4 /* Support Files */,
+			);
+			name = SwiftyRadio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC607E74F4D0FDD46C2D91B088161F39 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93BA90A895A3E6EBD3440436FC59EF2 /* SwiftyRadio */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D78A3A36BB0755189DC6D63DF8664203 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CD20A52F81C9CE9851D2BE9738BDA688 /* Products */,
-				D2EC14B54B1AB5FC6FB93452A8FCFFE8 /* Targets Support Files */,
+				BC607E74F4D0FDD46C2D91B088161F39 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EF9AA3FA0BA3C930B855D00A0F1B2A93 /* Products */,
+				A685F646C1FE8B307BACE4AB3A2C6194 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D14484A969C296A5BE08CD31CE058269 /* Support Files */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E0AE8BABCB16BAD69D4C127EF857AF36 /* SwiftyRadio.modulemap */,
-				6066D4A407902665BC151A22146D4DC3 /* SwiftyRadio-dummy.m */,
-				71F1F018E1A311F389771F71C9507344 /* SwiftyRadio-Info.plist */,
-				59E4A29A7562DBB26D8ADDDEC6D3D6A6 /* SwiftyRadio-prefix.pch */,
-				3E7A0A0488C1D3AF802D5C7212B2A172 /* SwiftyRadio-umbrella.h */,
-				B4D77000B973808FC5D375740C1B8A78 /* SwiftyRadio.debug.xcconfig */,
-				A18D66E6374882A60B630D534A55EBB1 /* SwiftyRadio.release.xcconfig */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftyRadio";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		EF9AA3FA0BA3C930B855D00A0F1B2A93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				43B09FFDDD950ACDD860A7A0872DC50E /* Pods_SwiftyRadio_Example.framework */,
+				BAF979EFCD980D0929DF8FB53465EF07 /* SwiftyRadio.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2EC14B54B1AB5FC6FB93452A8FCFFE8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C61FC41688DFF5DB4B6B9C5B33C7B674 /* Pods-SwiftyRadio_Example */,
-				08A6F882102E25C91EAF712A44FF417E /* Pods-SwiftyRadio_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D78A3A36BB0755189DC6D63DF8664203 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0FE4C4AC39AABA38F7785FF93F10E2E5 /* SwiftyRadio */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D9795266B4227C1BF0A901BF9CBAC2CA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CC1D5B01F8FF1A554A06E9C53DA0C78D /* LICENSE */,
-				9BAA1EEF1A98778028FB7924FD5231C2 /* README.md */,
-				1AA5D4A7C42C492B44BF54A704737B80 /* SwiftyRadio.podspec */,
-			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B842C68D343FF42D71E06CF84B2E82A /* Headers */ = {
+		20EC0AC30A522ECAADD4BD6019C40005 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C9698845FC29CF28131DE4948742484 /* SwiftyRadio-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F9C80311F70A03C8AB56C6F2FAF7985 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B01FC95B712DCD7C982D30D3F5CCA2E /* Pods-SwiftyRadio_Tests-umbrella.h in Headers */,
+				B6DA238B0397A023015498CEDAC55B91 /* SwiftyRadio-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,25 +213,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		68BE76578FD7B45B3B5E49CDDE8F540A /* Pods-SwiftyRadio_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6D51B4A9C426AA4B5AA2C0FB0496960 /* Build configuration list for PBXNativeTarget "Pods-SwiftyRadio_Tests" */;
-			buildPhases = (
-				2F9C80311F70A03C8AB56C6F2FAF7985 /* Headers */,
-				1F42FE22A558FBAF4DC23F29C8504EF5 /* Sources */,
-				A8EA12118DFE88D8D158253CEF6F9CC0 /* Frameworks */,
-				F97AB89B736434EDDB6753CDFC79E7D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB62CB5BDDD1054E5588F6261F8CC8D4 /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftyRadio_Tests";
-			productName = "Pods-SwiftyRadio_Tests";
-			productReference = EAA876F16B88D594BD9B7266FF5111C2 /* Pods_SwiftyRadio_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D510F67522D46E62635E723ED7C61047 /* Pods-SwiftyRadio_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9806BE359E3277072A7112CE37BBD7CE /* Build configuration list for PBXNativeTarget "Pods-SwiftyRadio_Example" */;
@@ -293,12 +234,12 @@
 		};
 		EA2AF3E2772CDBBDB927A21A407AFD64 /* SwiftyRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCDC9394F7626BFDC7CBE7D80E00DA95 /* Build configuration list for PBXNativeTarget "SwiftyRadio" */;
+			buildConfigurationList = FAEF65FA02689251B9F8C3370B11701D /* Build configuration list for PBXNativeTarget "SwiftyRadio" */;
 			buildPhases = (
-				0B842C68D343FF42D71E06CF84B2E82A /* Headers */,
-				B68759AAFD6EB9C1354BAC00D3E69F7C /* Sources */,
-				413CDF748F7886C3E053545CFA8F4BF7 /* Frameworks */,
-				5BB8226A8051396A70449D96B7E827AB /* Resources */,
+				20EC0AC30A522ECAADD4BD6019C40005 /* Headers */,
+				B08D3C49606F28D4ED5F04FD418C0821 /* Sources */,
+				C4BDA2E85C4E5D3FF544E295C93F2A4E /* Frameworks */,
+				6918B0C5B088F644C82A7EC66DC604BD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,19 +268,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CD20A52F81C9CE9851D2BE9738BDA688 /* Products */;
+			productRefGroup = EF9AA3FA0BA3C930B855D00A0F1B2A93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D510F67522D46E62635E723ED7C61047 /* Pods-SwiftyRadio_Example */,
-				68BE76578FD7B45B3B5E49CDDE8F540A /* Pods-SwiftyRadio_Tests */,
 				EA2AF3E2772CDBBDB927A21A407AFD64 /* SwiftyRadio */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5BB8226A8051396A70449D96B7E827AB /* Resources */ = {
+		6918B0C5B088F644C82A7EC66DC604BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,13 +287,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8966F57170841804168EEDDBA4838DFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F97AB89B736434EDDB6753CDFC79E7D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,20 +304,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F42FE22A558FBAF4DC23F29C8504EF5 /* Sources */ = {
+		B08D3C49606F28D4ED5F04FD418C0821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1539CE22213E755E869B207763E6BDDD /* Pods-SwiftyRadio_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68759AAFD6EB9C1354BAC00D3E69F7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289F170B01D4754FDF492C8A32FDEEBF /* ReplaceMe.swift in Sources */,
-				63C5648E362F63A0E466C62886472020 /* SwiftyRadio-dummy.m in Sources */,
+				C2C7ACDBF057E4B8F8691542ACB38839 /* SwiftyRadio+ButtonView.swift in Sources */,
+				2532D57E45425B2C45DEA025557B5DFC /* SwiftyRadio+Config.swift in Sources */,
+				06D89EBE27E35DADFC7FD736DC663C04 /* SwiftyRadio+Delegate.swift in Sources */,
+				DD52EBCFE5FAB71D56846736CCA97DA0 /* SwiftyRadio-dummy.m in Sources */,
+				ADC78F50D4B819E5C128F1E1FA061F97 /* SwiftyRadio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,180 +325,10 @@
 			target = EA2AF3E2772CDBBDB927A21A407AFD64 /* SwiftyRadio */;
 			targetProxy = E452C2E84BC854B1BD6AA8265CD3058B /* PBXContainerItemProxy */;
 		};
-		AB62CB5BDDD1054E5588F6261F8CC8D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SwiftyRadio_Example";
-			target = D510F67522D46E62635E723ED7C61047 /* Pods-SwiftyRadio_Example */;
-			targetProxy = E09DD18B62164FA2363639FC6AEEC424 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		027197BEECF74701DBC400243CD79B5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4D77000B973808FC5D375740C1B8A78 /* SwiftyRadio.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRadio/SwiftyRadio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyRadio;
-				PRODUCT_NAME = SwiftyRadio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		055B7C1AA4A3FF155565B8B94D97712E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E58B72F3E83C1BC8A11955C6A3C5374F /* Pods-SwiftyRadio_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4651CA2404CC7701FF0CC5740E33575B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9A8B350074B084B2F77A6C35F624EFC /* Pods-SwiftyRadio_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6127E0C356D1D06F36EE5713F9695AF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A0D9A31CD9D086358C012EA9AEBDA7A /* Pods-SwiftyRadio_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7E35C6E38AA76E45B366E5A2C683B304 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18D66E6374882A60B630D534A55EBB1 /* SwiftyRadio.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRadio/SwiftyRadio-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyRadio;
-				PRODUCT_NAME = SwiftyRadio;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -630,7 +388,145 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		20CFB0FFD00BB55D398E9D879B5DE229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376722F6190F78556CAB29400C43C06F /* Pods-SwiftyRadio_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2674F18D26E569B8B70AF7959B5B65DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056FA08DB53B2B74A31FCFEE7C9AB457 /* SwiftyRadio.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRadio/SwiftyRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyRadio;
+				PRODUCT_NAME = SwiftyRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43F0FE7543B8A131BF82A4C42D5C2784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F820AC85C2272221E66AA86081D6BEE /* SwiftyRadio.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyRadio/SwiftyRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyRadio/SwiftyRadio.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyRadio;
+				PRODUCT_NAME = SwiftyRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E07FB1704F160498124F7F6942F1BE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB2FD502157D71C000946085222F74C /* Pods-SwiftyRadio_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -681,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -694,47 +590,14 @@
 			};
 			name = Debug;
 		};
-		D6E082B3913AA98288035572A0E8BFEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB33BD997268FEFB9EE363B1110ECF86 /* Pods-SwiftyRadio_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,26 +605,17 @@
 		9806BE359E3277072A7112CE37BBD7CE /* Build configuration list for PBXNativeTarget "Pods-SwiftyRadio_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6E082B3913AA98288035572A0E8BFEA /* Debug */,
-				4651CA2404CC7701FF0CC5740E33575B /* Release */,
+				E07FB1704F160498124F7F6942F1BE0D /* Debug */,
+				20CFB0FFD00BB55D398E9D879B5DE229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6D51B4A9C426AA4B5AA2C0FB0496960 /* Build configuration list for PBXNativeTarget "Pods-SwiftyRadio_Tests" */ = {
+		FAEF65FA02689251B9F8C3370B11701D /* Build configuration list for PBXNativeTarget "SwiftyRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				055B7C1AA4A3FF155565B8B94D97712E /* Debug */,
-				6127E0C356D1D06F36EE5713F9695AF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCDC9394F7626BFDC7CBE7D80E00DA95 /* Build configuration list for PBXNativeTarget "SwiftyRadio" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				027197BEECF74701DBC400243CD79B5F /* Debug */,
-				7E35C6E38AA76E45B366E5A2C683B304 /* Release */,
+				2674F18D26E569B8B70AF7959B5B65DC /* Debug */,
+				43F0FE7543B8A131BF82A4C42D5C2784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
