@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyRadio_Example' do
+  pod 'SwiftyRadio', :path => '../'
+
+  target 'SwiftyRadio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
