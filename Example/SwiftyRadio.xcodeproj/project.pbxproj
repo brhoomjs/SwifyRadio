@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091591722BBB091F3E542D7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		091591722BBB091F3E542D7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1006F37BE2AFF3178F8C502C /* Pods-SwiftyRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRadio_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyRadio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRadio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		718C91A92B9B0B60497BD05E /* Pods_SwiftyRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyRadio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73105966ADD5E491B3337CD8 /* Pods-SwiftyRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRadio_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		969148D19CD15DAE6B343375 /* Pods_SwiftyRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyRadio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5A39EDEB3661ECF8D9899FF /* SwiftyRadio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftyRadio.podspec; path = ../SwiftyRadio.podspec; sourceTree = "<group>"; };
+		C5A39EDEB3661ECF8D9899FF /* SwiftyRadio.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftyRadio.podspec; path = ../SwiftyRadio.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA1082A2C154F78EB7133E7B /* Pods-SwiftyRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRadio_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyRadio_Tests/Pods-SwiftyRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF48343DB32BA69792C65F3C /* Pods-SwiftyRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRadio_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1C39C155393933F4A8A1221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E1C39C155393933F4A8A1221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				CA1082A2C154F78EB7133E7B /* Pods-SwiftyRadio_Tests.debug.xcconfig */,
 				73105966ADD5E491B3337CD8 /* Pods-SwiftyRadio_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,6 +1,6 @@
 # SwiftyRadio
 
-[![CI Status](https://img.shields.io/travis/Ibrahim F/SwiftyRadio.svg?style=flat)](https://travis-ci.org/Ibrahim F/SwiftyRadio)
+[![CI Status](https://img.shields.io/travis/IbrahimF/SwiftyRadio.svg?style=flat)](https://travis-ci.org/IbrahimF/SwiftyRadio)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyRadio.svg?style=flat)](https://cocoapods.org/pods/SwiftyRadio)
 [![License](https://img.shields.io/cocoapods/l/SwiftyRadio.svg?style=flat)](https://cocoapods.org/pods/SwiftyRadio)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyRadio.svg?style=flat)](https://cocoapods.org/pods/SwiftyRadio)
