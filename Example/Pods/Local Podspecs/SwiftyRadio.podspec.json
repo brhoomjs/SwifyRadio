@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyRadio",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyRadio.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ibrahim F/SwiftyRadio",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ibrahim F": "ibrahim@fullstack.ae"
+  },
+  "source": {
+    "git": "https://github.com/Ibrahim F/SwiftyRadio.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyRadio/Classes/**/*"
+}
