@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		06F947FF5EEBF633A1F28B56 /* Pods_SwiftyRadio_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C91A92B9B0B60497BD05E /* Pods_SwiftyRadio_Example.framework */; };
+		0FFBDCAA2483406000B2900E /* SwiftyRadio+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBDCA62483405F00B2900E /* SwiftyRadio+Delegate.swift */; };
+		0FFBDCAB2483406000B2900E /* SwiftyRadio+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBDCA72483405F00B2900E /* SwiftyRadio+Config.swift */; };
+		0FFBDCAC2483406000B2900E /* SwiftyRadio+ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBDCA82483406000B2900E /* SwiftyRadio+ButtonView.swift */; };
+		0FFBDCAD2483406000B2900E /* SwiftyRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBDCA92483406000B2900E /* SwiftyRadio.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -16,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		091591722BBB091F3E542D7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FFBDCA62483405F00B2900E /* SwiftyRadio+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyRadio+Delegate.swift"; sourceTree = "<group>"; };
+		0FFBDCA72483405F00B2900E /* SwiftyRadio+Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyRadio+Config.swift"; sourceTree = "<group>"; };
+		0FFBDCA82483406000B2900E /* SwiftyRadio+ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyRadio+ButtonView.swift"; sourceTree = "<group>"; };
+		0FFBDCA92483406000B2900E /* SwiftyRadio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRadio.swift; sourceTree = "<group>"; };
 		1006F37BE2AFF3178F8C502C /* Pods-SwiftyRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyRadio_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyRadio_Example/Pods-SwiftyRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftyRadio_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRadio_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FFBDCA52483402F00B2900E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0FFBDCA92483406000B2900E /* SwiftyRadio.swift */,
+				0FFBDCA82483406000B2900E /* SwiftyRadio+ButtonView.swift */,
+				0FFBDCA72483405F00B2900E /* SwiftyRadio+Config.swift */,
+				0FFBDCA62483405F00B2900E /* SwiftyRadio+Delegate.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +85,7 @@
 		607FACD21AFB9204008FA782 /* Example for SwiftyRadio */ = {
 			isa = PBXGroup;
 			children = (
+				0FFBDCA52483402F00B2900E /* Sources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -143,21 +163,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 75NLR6VU5Z;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftyRadio" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -232,7 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0FFBDCAB2483406000B2900E /* SwiftyRadio+Config.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0FFBDCAD2483406000B2900E /* SwiftyRadio.swift in Sources */,
+				0FFBDCAC2483406000B2900E /* SwiftyRadio+ButtonView.swift in Sources */,
+				0FFBDCAA2483406000B2900E /* SwiftyRadio+Delegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -262,12 +287,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -307,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -315,12 +343,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -354,6 +384,7 @@
 			baseConfigurationReference = 1006F37BE2AFF3178F8C502C /* Pods-SwiftyRadio_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75NLR6VU5Z;
 				INFOPLIST_FILE = SwiftyRadio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -371,6 +402,7 @@
 			baseConfigurationReference = DF48343DB32BA69792C65F3C /* Pods-SwiftyRadio_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75NLR6VU5Z;
 				INFOPLIST_FILE = SwiftyRadio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
